@@ -17,7 +17,7 @@ class Splash {
   this.name = createDiv("Mengyi Yang");
   this.name.position(this.splashBorder+20, this.splashBorder+60);
   
-  this.info = createDiv("My project is to creating a front end of p5.js function to making a convolution reverb");
+  this.info = createDiv("My project is to creating a front end of p5.js function to making a convolution reverb,including 2 concert at Peabody Institute of Johns Hopkins University");
   
   this.info.position(this.splashBorder+20, this.splashBorder+100);
   this.info.size(windowWidth-this.splashBorder*2-50, windowHeight-this.splashBorder*2-50)
