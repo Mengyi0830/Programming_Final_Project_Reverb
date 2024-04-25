@@ -136,7 +136,7 @@ function draw() {
   //UI of reverb
   
 
-  if (mouseIsPressed == true) {
+  if (mouseIsPressed == true && splash.update() == true) {
     mode = 1;
 
   }
