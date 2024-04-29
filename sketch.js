@@ -100,14 +100,7 @@ function changeIR(){
   playSound()
 }
 
-function mousePressed() { 
-    if (!audioStarted) {
-        userStartAudio();
-        audioStarted = true;
-      playSound()
-    }
 
-}
 
 //switch ir without restart the music, so choose loop()
 function playSound(){
@@ -141,6 +134,12 @@ function draw() {
 
   }
   if (mode == 1) {
+    
+        if (!audioStarted) {
+        userStartAudio();
+        audioStarted = true;
+      playSound()
+    }
   background(255)
   if(order === 1){
    fill(255,254,179)
